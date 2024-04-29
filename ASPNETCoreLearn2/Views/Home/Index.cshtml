@@ -1,4 +1,6 @@
-﻿@using ASPNETCoreLearn2.Models;
+﻿@{
+    ViewBag.Title = "Global Weather";
+}
 @model List<CityWeather>
 
 @{
@@ -13,16 +15,6 @@
     }
 }
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weather Data</title>
-    <link rel="stylesheet" href="~/StyleSheet.css" />
-</head>
-<body>
-    <div class="container">
         <div class="page-content">
             <div class="margin-bottom"><h1>Weather</h1></div>
 
@@ -46,6 +38,3 @@
                 </div>
             </div>
         </div>
-    </div>
-</body>
-</html>
